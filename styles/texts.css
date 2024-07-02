@@ -1,0 +1,111 @@
+p{
+    font-family: Oswald;
+    margin-left: 12px;
+    line-height: 20px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    color: rgb(218, 218, 218);
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.stats{
+    margin-bottom: 3px;
+    margin-top: 2px;
+    color: rgb(116, 116, 116);
+}
+.author{
+    margin-bottom: 0;
+    margin-top: 0;
+    color: rgb(116, 116, 116);
+}
+.video-time{
+    padding-left: 2px;
+    padding-right: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(240, 255, 255, 0.1);
+    border-radius: 8px;
+    position: absolute;
+    bottom: -6px;
+    right: 16px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.notifications{
+    font-size: 14px;
+    opacity: 1;
+    top:-18px;
+    right: -6px;
+    position: absolute;
+    color: white;
+    background-color: red;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.search-button .tooltip{
+    vertical-align: top;
+    bottom: -35px;
+    font-size: 15px;
+    position: absolute;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    opacity: 0;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.search-button:hover .tooltip{
+    opacity: 1;
+}
+
+.microphone-button .tooltip{
+    vertical-align: top;
+    bottom: -29px;
+    font-size: 15px;
+    position: absolute;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    opacity: 0;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.microphone-button:hover .tooltip{
+    opacity: 1;
+}
+
+.bell-button .tooltip{
+    left: -28px;
+    vertical-align: top;
+    bottom: -29px;
+    font-size: 15px;
+    position: absolute;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 2px;
+    opacity: 0;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    transition: opacity 0.15s;
+    pointer-events: none;
+}
+.bell-button:hover .tooltip{
+    opacity: 1;
+}
