@@ -132,6 +132,9 @@
     transition: opacity 0.15s;
     cursor: pointer;
 }
+.bell-button:hover{
+    background-color: rgb(11, 11, 11);
+}
 .sidebar{
     z-index: 1;
     position: fixed;
@@ -159,21 +162,4 @@
 }
 .side-b:hover{
     background-color: gray;
-}
-.test{
-    margin-top: 1000px;
-    width: 300px;
-}
-.test{
-    animation: Reveal ease 10s;
-    animation-iteration-count: 1;
-    animation-fill-mode: forwards;
-}
-@keyframes Reveal{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
 }
